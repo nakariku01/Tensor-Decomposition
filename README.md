@@ -1,11 +1,9 @@
 # Tensor-Decomposition
 ## Canonical polyadic decomposition
-* テンソルをクロネッカー積の和で表現する．
   ```math
   \mathcal{T} = \sum_{\mathcal{r}=1}^{\mathcal{R}}\mathcal{A}_r\otimes\mathcal{B}_r\otimes\mathcal{C}_r\otimes...
   ```
 ### Kronecker product
-* AをM行N列，BをQ行P列とすると，クロネッカー積A⊗Bは
   ```math
   A\otimes B = 
   \begin{pmatrix}
