@@ -1,7 +1,7 @@
 # Tensor-Decomposition
 ## Canonical polyadic decomposition
   ```math
-  \mathcal{T} = \sum_{\mathcal{r}=1}^{\mathcal{R}}\mathcal{A}_r\otimes\mathcal{B}_r\otimes\mathcal{C}_r\otimes...
+  \mathcal{T} = \mathcal{A}_r\otimes\mathcal{B}_r\otimes\mathcal{C}_r\otimes...
   ```
 ### Kronecker product
   ```math
